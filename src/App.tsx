@@ -1,12 +1,5 @@
-function App() {
-  return(
-    <div> 
-      <h1>Melitta</h1>
-      <p>Minuman</p>
-      <p>Makanan</p>
-      <p>Lokasi</p>
-    </div>
-  )
+import Item from "./pages/Item"
+function App () {
+  return <Item/>
 }
-
 export default App;
