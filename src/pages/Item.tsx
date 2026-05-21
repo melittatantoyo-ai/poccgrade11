@@ -118,7 +118,7 @@ function Item() {
         y: m * point.x + b,
     }) )
     return (
-        <div>
+        <div style={{minHeight:"100vh", background:"linear-gradient(to right, purple, blue, pink"}}>
             <h1>Regrasi Linear - by Melii & Rachell</h1>
             <ScatterChart width={400} height={300}>
                 <CartesianGrid/>
@@ -126,7 +126,7 @@ function Item() {
                 <YAxis type="number" dataKey="y"/>
 
                 <Tooltip/>
-                <Scatter data={data} fill="blue"/>
+                <Scatter data={data} fill="white"/>
                 <Scatter data={lineData} line shape="none" fill="pink"/>
             </ScatterChart>
         </div>
